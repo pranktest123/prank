@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>prank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="trap-section">
+        <video id="bg-video" autoplay loop muted playsinline src="vedio.mp4"></video>
+        <audio id="prank-audio" loop preload="auto" src="audio.mp3"></audio>
+        <div class="scroll-prompt"
+            onclick="document.getElementById('prank-section').scrollIntoView({behavior: 'smooth'})">Scroll Down for More
+            ↓</div>
+    </section>
+
+    <section id="prank-section">
+        <h1 class="prank-title">APRIL FOOL MADE BY AI</h1>
+        <h2 class="prank-subtitle">LIVE TILL:</h2>
+        <div id="countdown-timer"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
